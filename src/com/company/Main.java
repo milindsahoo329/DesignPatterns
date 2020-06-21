@@ -3,6 +3,7 @@ package com.company;
 import com.company.Bridge.BridgeExecutor;
 import com.company.ChainOfResponsibility.CorExecutor;
 import com.company.Flyweight.FlyweightExecutor;
+import com.company.Interpreter.InterpreterExecutor;
 
 public class Main {
 
@@ -14,8 +15,11 @@ public class Main {
 //        BridgeExecutor bridgeExecutor = new BridgeExecutor();
 //        bridgeExecutor.execute();
 
-        CorExecutor corExecutor = new CorExecutor();
-        corExecutor.execute();
+//        CorExecutor corExecutor = new CorExecutor();
+//        corExecutor.execute();
+
+        InterpreterExecutor interpreterExecutor = new InterpreterExecutor();
+        interpreterExecutor.execute();
 
     }
 }
