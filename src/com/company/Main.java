@@ -6,6 +6,7 @@ import com.company.Flyweight.FlyweightExecutor;
 import com.company.Interpreter.InterpreterExecutor;
 import com.company.Memento.Memento;
 import com.company.Memento.MementoExecutor;
+import com.company.Visitor.VisitorExecutor;
 
 public class Main {
 
@@ -23,8 +24,11 @@ public class Main {
 //        InterpreterExecutor interpreterExecutor = new InterpreterExecutor();
 //        interpreterExecutor.execute();
 
-        MementoExecutor mementoExecutor = new MementoExecutor();
-        mementoExecutor.execute();
+//        MementoExecutor mementoExecutor = new MementoExecutor();
+//        mementoExecutor.execute();
+
+//        VisitorExecutor visitorExecutor = new VisitorExecutor();
+//        visitorExecutor.execute();
 
 
     }
