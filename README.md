@@ -21,3 +21,6 @@ It is used in scenarios where similar operations have to be performed on similar
 
 7. Prototype Pattern
 Used as creational design pattern to create duplicate objects
+
+8. Mediator Pattern
+Used when there are complex dependencies between the objects. we use only a mediator object to interact between them.
