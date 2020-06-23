@@ -18,3 +18,6 @@ It is used when we need to maintain state of the objects, like undo effect
 
 6. Visitor Pattern
 It is used in scenarios where similar operations have to be performed on similar type of objects
+
+7. Prototype Pattern
+Used as creational design pattern to create duplicate objects
