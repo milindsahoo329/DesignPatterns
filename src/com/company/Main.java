@@ -4,6 +4,7 @@ import com.company.Bridge.BridgeExecutor;
 import com.company.ChainOfResponsibility.CorExecutor;
 import com.company.Flyweight.FlyweightExecutor;
 import com.company.Interpreter.InterpreterExecutor;
+import com.company.Mediator.MediatorExecutor;
 import com.company.Memento.Memento;
 import com.company.Memento.MementoExecutor;
 import com.company.Prototype.PrototypeExecutor;
@@ -31,8 +32,11 @@ public class Main {
 //        VisitorExecutor visitorExecutor = new VisitorExecutor();
 //        visitorExecutor.execute();
 
-        PrototypeExecutor prototypeExecutor = new PrototypeExecutor();
-        prototypeExecutor.execute();
+//        PrototypeExecutor prototypeExecutor = new PrototypeExecutor();
+//        prototypeExecutor.execute();
+
+        MediatorExecutor mediatorExecutor = new MediatorExecutor();
+        mediatorExecutor.execute();
 
 
     }
