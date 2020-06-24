@@ -24,3 +24,7 @@ Used as creational design pattern to create duplicate objects
 
 8. Mediator Pattern
 Used when there are complex dependencies between the objects. we use only a mediator object to interact between them.
+
+9. Proxy Pattern
+Used when you need wrappers for your actual classes. Controls and manages the access of the objects they handle.
+

@@ -8,6 +8,7 @@ import com.company.Mediator.MediatorExecutor;
 import com.company.Memento.Memento;
 import com.company.Memento.MementoExecutor;
 import com.company.Prototype.PrototypeExecutor;
+import com.company.Proxy.ProxyExecutor;
 import com.company.Visitor.VisitorExecutor;
 
 public class Main {
@@ -35,8 +36,11 @@ public class Main {
 //        PrototypeExecutor prototypeExecutor = new PrototypeExecutor();
 //        prototypeExecutor.execute();
 
-        MediatorExecutor mediatorExecutor = new MediatorExecutor();
-        mediatorExecutor.execute();
+//        MediatorExecutor mediatorExecutor = new MediatorExecutor();
+//        mediatorExecutor.execute();
+
+        ProxyExecutor proxyExecutor = new ProxyExecutor();
+        proxyExecutor.execute();
 
 
     }
