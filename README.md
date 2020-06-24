@@ -28,3 +28,4 @@ Used when there are complex dependencies between the objects. we use only a medi
 9. Proxy Pattern
 Used when you need wrappers for your actual classes. Controls and manages the access of the objects they handle.
 
+10. Builder Pattern

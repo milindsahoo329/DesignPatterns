@@ -1,6 +1,7 @@
 package com.company;
 
 import com.company.Bridge.BridgeExecutor;
+import com.company.Builder.BuilderExecutor;
 import com.company.ChainOfResponsibility.CorExecutor;
 import com.company.Flyweight.FlyweightExecutor;
 import com.company.Interpreter.InterpreterExecutor;
@@ -39,8 +40,11 @@ public class Main {
 //        MediatorExecutor mediatorExecutor = new MediatorExecutor();
 //        mediatorExecutor.execute();
 
-        ProxyExecutor proxyExecutor = new ProxyExecutor();
-        proxyExecutor.execute();
+//        ProxyExecutor proxyExecutor = new ProxyExecutor();
+//        proxyExecutor.execute();
+
+        BuilderExecutor builderExecutor = new BuilderExecutor();
+        builderExecutor.execute();
 
 
     }
