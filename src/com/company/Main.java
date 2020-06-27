@@ -5,6 +5,7 @@ import com.company.Builder.BuilderExecutor;
 import com.company.ChainOfResponsibility.CorExecutor;
 import com.company.Flyweight.FlyweightExecutor;
 import com.company.Interpreter.InterpreterExecutor;
+import com.company.MVCPattern.MVCExecutor;
 import com.company.Mediator.MediatorExecutor;
 import com.company.Memento.Memento;
 import com.company.Memento.MementoExecutor;
@@ -43,8 +44,11 @@ public class Main {
 //        ProxyExecutor proxyExecutor = new ProxyExecutor();
 //        proxyExecutor.execute();
 
-        BuilderExecutor builderExecutor = new BuilderExecutor();
-        builderExecutor.execute();
+//        BuilderExecutor builderExecutor = new BuilderExecutor();
+//        builderExecutor.execute();
+
+        MVCExecutor mvcExecutor = new MVCExecutor();
+        mvcExecutor.execute();
 
 
     }
