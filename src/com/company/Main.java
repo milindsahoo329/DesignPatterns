@@ -11,6 +11,7 @@ import com.company.Memento.Memento;
 import com.company.Memento.MementoExecutor;
 import com.company.Prototype.PrototypeExecutor;
 import com.company.Proxy.ProxyExecutor;
+import com.company.State.StateExecutor;
 import com.company.Visitor.VisitorExecutor;
 
 public class Main {
@@ -47,8 +48,11 @@ public class Main {
 //        BuilderExecutor builderExecutor = new BuilderExecutor();
 //        builderExecutor.execute();
 
-        MVCExecutor mvcExecutor = new MVCExecutor();
-        mvcExecutor.execute();
+//        MVCExecutor mvcExecutor = new MVCExecutor();
+//        mvcExecutor.execute();
+
+        StateExecutor stateExecutor = new StateExecutor();
+        stateExecutor.execute();
 
 
     }
