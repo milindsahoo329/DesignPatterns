@@ -30,3 +30,9 @@ Used when you need wrappers for your actual classes. Controls and manages the ac
 
 10. Builder Pattern
 Used when we need to create different representations of an object from the same classes
+
+11. MVC Pattern
+Mode View Controller design pattern is used in applications where the work of these set of APIs have to  be segregated
+
+12. State Pattern
+We create state objects, and a context object whose behavior changes according to the state.
