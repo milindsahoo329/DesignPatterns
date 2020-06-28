@@ -36,3 +36,10 @@ Mode View Controller design pattern is used in applications where the work of th
 
 12. State Pattern
 We create state objects, and a context object whose behavior changes according to the state.
+
+13. Iterator Design Pattern
+Used to sequentially access a collection of an object without requiring to know any underlying representation.
+
+14. Template Design Pattern
+
+
