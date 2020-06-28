@@ -5,6 +5,7 @@ import com.company.Builder.BuilderExecutor;
 import com.company.ChainOfResponsibility.CorExecutor;
 import com.company.Flyweight.FlyweightExecutor;
 import com.company.Interpreter.InterpreterExecutor;
+import com.company.Iterator.IteratorExecutor;
 import com.company.MVCPattern.MVCExecutor;
 import com.company.Mediator.MediatorExecutor;
 import com.company.Memento.Memento;
@@ -51,8 +52,11 @@ public class Main {
 //        MVCExecutor mvcExecutor = new MVCExecutor();
 //        mvcExecutor.execute();
 
-        StateExecutor stateExecutor = new StateExecutor();
-        stateExecutor.execute();
+//        StateExecutor stateExecutor = new StateExecutor();
+//        stateExecutor.execute();
+
+        IteratorExecutor iteratorExecutor = new IteratorExecutor();
+        iteratorExecutor.execute();
 
 
     }
