@@ -13,6 +13,7 @@ import com.company.Memento.MementoExecutor;
 import com.company.Prototype.PrototypeExecutor;
 import com.company.Proxy.ProxyExecutor;
 import com.company.State.StateExecutor;
+import com.company.Template.TemplateExecutor;
 import com.company.Visitor.VisitorExecutor;
 
 public class Main {
@@ -55,8 +56,11 @@ public class Main {
 //        StateExecutor stateExecutor = new StateExecutor();
 //        stateExecutor.execute();
 
-        IteratorExecutor iteratorExecutor = new IteratorExecutor();
-        iteratorExecutor.execute();
+//        IteratorExecutor iteratorExecutor = new IteratorExecutor();
+//        iteratorExecutor.execute();
+
+        TemplateExecutor templateExecutor = new TemplateExecutor();
+        templateExecutor.execute();
 
 
     }
