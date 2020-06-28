@@ -41,5 +41,7 @@ We create state objects, and a context object whose behavior changes according t
 Used to sequentially access a collection of an object without requiring to know any underlying representation.
 
 14. Template Design Pattern
+Used in scenarios where more than one implementation exist for a set of algorithms. 
+The parent class takes care of the sequence and execution of the algorithms.
 
 
