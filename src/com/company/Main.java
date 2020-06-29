@@ -3,6 +3,7 @@ package com.company;
 import com.company.Bridge.BridgeExecutor;
 import com.company.Builder.BuilderExecutor;
 import com.company.ChainOfResponsibility.CorExecutor;
+import com.company.Facade.FacadeExecutor;
 import com.company.Flyweight.FlyweightExecutor;
 import com.company.Interpreter.InterpreterExecutor;
 import com.company.Iterator.IteratorExecutor;
@@ -59,8 +60,11 @@ public class Main {
 //        IteratorExecutor iteratorExecutor = new IteratorExecutor();
 //        iteratorExecutor.execute();
 
-        TemplateExecutor templateExecutor = new TemplateExecutor();
-        templateExecutor.execute();
+//        TemplateExecutor templateExecutor = new TemplateExecutor();
+//        templateExecutor.execute();
+
+        FacadeExecutor facadeExecutor = new FacadeExecutor();
+        facadeExecutor.execute();
 
 
     }

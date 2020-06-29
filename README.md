@@ -34,14 +34,16 @@ Used when we need to create different representations of an object from the same
 11. MVC Pattern
 Mode View Controller design pattern is used in applications where the work of these set of APIs have to  be segregated
 
-12. State Pattern
+12. State Pattern -
 We create state objects, and a context object whose behavior changes according to the state.
 
-13. Iterator Design Pattern
+13. Iterator Design Pattern -
 Used to sequentially access a collection of an object without requiring to know any underlying representation.
 
-14. Template Design Pattern
+14. Template Design Pattern - 
 Used in scenarios where more than one implementation exist for a set of algorithms. 
 The parent class takes care of the sequence and execution of the algorithms.
 
+15. Facade Pattern - 
+Used in scenarios where we need to provide easy to use methods from existing set of classes
 
