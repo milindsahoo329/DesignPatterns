@@ -47,3 +47,6 @@ The parent class takes care of the sequence and execution of the algorithms.
 15. Facade Pattern - 
 Used in scenarios where we need to provide easy to use methods from existing set of classes
 
+16. Adapter Pattern -
+Used in places where interfaces are to be converted into interfaces of other classes which 
+would not work due to incompatible class types

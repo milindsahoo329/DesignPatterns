@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.Adapter.AdapterExecutor;
+import com.company.Adapter.CarAdapter;
 import com.company.Bridge.BridgeExecutor;
 import com.company.Builder.BuilderExecutor;
 import com.company.ChainOfResponsibility.CorExecutor;
@@ -63,8 +65,11 @@ public class Main {
 //        TemplateExecutor templateExecutor = new TemplateExecutor();
 //        templateExecutor.execute();
 
-        FacadeExecutor facadeExecutor = new FacadeExecutor();
-        facadeExecutor.execute();
+//        FacadeExecutor facadeExecutor = new FacadeExecutor();
+//        facadeExecutor.execute();
+
+        AdapterExecutor adapterExecutor = new AdapterExecutor();
+        adapterExecutor.execute();
 
 
     }
