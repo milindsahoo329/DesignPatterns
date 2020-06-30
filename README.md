@@ -50,3 +50,5 @@ Used in scenarios where we need to provide easy to use methods from existing set
 16. Adapter Pattern -
 Used in places where interfaces are to be converted into interfaces of other classes which 
 would not work due to incompatible class types
+
+17. Singleton Pattern -

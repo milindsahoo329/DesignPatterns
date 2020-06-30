@@ -15,6 +15,7 @@ import com.company.Memento.Memento;
 import com.company.Memento.MementoExecutor;
 import com.company.Prototype.PrototypeExecutor;
 import com.company.Proxy.ProxyExecutor;
+import com.company.Singleton.SingletonExecutor;
 import com.company.State.StateExecutor;
 import com.company.Template.TemplateExecutor;
 import com.company.Visitor.VisitorExecutor;
@@ -68,9 +69,11 @@ public class Main {
 //        FacadeExecutor facadeExecutor = new FacadeExecutor();
 //        facadeExecutor.execute();
 
-        AdapterExecutor adapterExecutor = new AdapterExecutor();
-        adapterExecutor.execute();
+//        AdapterExecutor adapterExecutor = new AdapterExecutor();
+//        adapterExecutor.execute();
 
+        SingletonExecutor singletonExecutor = new SingletonExecutor();
+        singletonExecutor.execute();
 
     }
 }
