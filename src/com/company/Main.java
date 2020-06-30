@@ -5,6 +5,7 @@ import com.company.Adapter.CarAdapter;
 import com.company.Bridge.BridgeExecutor;
 import com.company.Builder.BuilderExecutor;
 import com.company.ChainOfResponsibility.CorExecutor;
+import com.company.Command.CommandExecutor;
 import com.company.Facade.FacadeExecutor;
 import com.company.Flyweight.FlyweightExecutor;
 import com.company.Interpreter.InterpreterExecutor;
@@ -72,8 +73,11 @@ public class Main {
 //        AdapterExecutor adapterExecutor = new AdapterExecutor();
 //        adapterExecutor.execute();
 
-        SingletonExecutor singletonExecutor = new SingletonExecutor();
-        singletonExecutor.execute();
+//        SingletonExecutor singletonExecutor = new SingletonExecutor();
+//        singletonExecutor.execute();
+
+        CommandExecutor commandExecutor = new CommandExecutor();
+        commandExecutor.execute();
 
     }
 }
