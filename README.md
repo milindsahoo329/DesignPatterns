@@ -52,3 +52,7 @@ Used in places where interfaces are to be converted into interfaces of other cla
 would not work due to incompatible class types
 
 17. Singleton Pattern -
+Used when we want only a single object across our application
+
+18. Command Pattern -
+Command Pattern encapsulates a command as an object which can be later used for different objects.
