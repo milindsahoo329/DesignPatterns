@@ -6,6 +6,7 @@ import com.company.Bridge.BridgeExecutor;
 import com.company.Builder.BuilderExecutor;
 import com.company.ChainOfResponsibility.CorExecutor;
 import com.company.Command.CommandExecutor;
+import com.company.Decorator.DecoratorExecutor;
 import com.company.Facade.FacadeExecutor;
 import com.company.Factory.FactoryExecutor;
 import com.company.Flyweight.FlyweightExecutor;
@@ -80,8 +81,11 @@ public class Main {
 //        CommandExecutor commandExecutor = new CommandExecutor();
 //        commandExecutor.execute();
 
-        FactoryExecutor factoryExecutor = new FactoryExecutor();
-        factoryExecutor.execute();
+//        FactoryExecutor factoryExecutor = new FactoryExecutor();
+//        factoryExecutor.execute();
+
+        DecoratorExecutor decoratorExecutor = new DecoratorExecutor();
+        decoratorExecutor.execute();
 
     }
 }
