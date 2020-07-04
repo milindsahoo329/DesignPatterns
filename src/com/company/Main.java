@@ -7,6 +7,7 @@ import com.company.Builder.BuilderExecutor;
 import com.company.ChainOfResponsibility.CorExecutor;
 import com.company.Command.CommandExecutor;
 import com.company.Facade.FacadeExecutor;
+import com.company.Factory.FactoryExecutor;
 import com.company.Flyweight.FlyweightExecutor;
 import com.company.Interpreter.InterpreterExecutor;
 import com.company.Iterator.IteratorExecutor;
@@ -76,8 +77,11 @@ public class Main {
 //        SingletonExecutor singletonExecutor = new SingletonExecutor();
 //        singletonExecutor.execute();
 
-        CommandExecutor commandExecutor = new CommandExecutor();
-        commandExecutor.execute();
+//        CommandExecutor commandExecutor = new CommandExecutor();
+//        commandExecutor.execute();
+
+        FactoryExecutor factoryExecutor = new FactoryExecutor();
+        factoryExecutor.execute();
 
     }
 }

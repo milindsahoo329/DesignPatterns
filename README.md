@@ -56,3 +56,8 @@ Used when we want only a single object across our application
 
 18. Command Pattern -
 Command Pattern encapsulates a command as an object which can be later used for different objects.
+
+19. Factory Pattern -
+We use it in places where we need to create an object without exposing any of the creation logic.
+
+20. Decorator Pattern -
