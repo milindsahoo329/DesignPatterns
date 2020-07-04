@@ -61,3 +61,4 @@ Command Pattern encapsulates a command as an object which can be later used for 
 We use it in places where we need to create an object without exposing any of the creation logic.
 
 20. Decorator Pattern -
+Allows user to add new functionality to an object without altering its existing structure
