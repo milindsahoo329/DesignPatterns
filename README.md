@@ -62,3 +62,10 @@ We use it in places where we need to create an object without exposing any of th
 
 20. Decorator Pattern -
 Allows user to add new functionality to an object without altering its existing structure
+
+21. Observer Pattern -
+In this pattern, an object called as a subject maintains a list of the dependents and notifies all of them
+whenever a state changes
+
+22. Strategy Pattern -
+
