@@ -65,7 +65,8 @@ Allows user to add new functionality to an object without altering its existing 
 
 21. Observer Pattern -
 In this pattern, an object called as a subject maintains a list of the dependents and notifies all of them
-whenever a state changes
+whenever a state changes.
 
 22. Strategy Pattern -
-
+The context object changes the execution of strategies which are represented using objects. During runtime
+the nature of objects dynamically change.
