@@ -21,6 +21,7 @@ import com.company.Prototype.PrototypeExecutor;
 import com.company.Proxy.ProxyExecutor;
 import com.company.Singleton.SingletonExecutor;
 import com.company.State.StateExecutor;
+import com.company.Strategy.StrategyExecutor;
 import com.company.Template.TemplateExecutor;
 import com.company.Visitor.VisitorExecutor;
 
@@ -88,8 +89,11 @@ public class Main {
 //        DecoratorExecutor decoratorExecutor = new DecoratorExecutor();
 //        decoratorExecutor.execute();
 
-        ObserverExecutor observerExecutor = new ObserverExecutor();
-        observerExecutor.execute();
+//        ObserverExecutor observerExecutor = new ObserverExecutor();
+//        observerExecutor.execute();
+
+        StrategyExecutor strategyExecutor = new StrategyExecutor();
+        strategyExecutor.execute();
 
     }
 }
