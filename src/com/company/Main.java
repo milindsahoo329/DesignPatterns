@@ -16,6 +16,7 @@ import com.company.MVCPattern.MVCExecutor;
 import com.company.Mediator.MediatorExecutor;
 import com.company.Memento.Memento;
 import com.company.Memento.MementoExecutor;
+import com.company.Observer.ObserverExecutor;
 import com.company.Prototype.PrototypeExecutor;
 import com.company.Proxy.ProxyExecutor;
 import com.company.Singleton.SingletonExecutor;
@@ -84,8 +85,11 @@ public class Main {
 //        FactoryExecutor factoryExecutor = new FactoryExecutor();
 //        factoryExecutor.execute();
 
-        DecoratorExecutor decoratorExecutor = new DecoratorExecutor();
-        decoratorExecutor.execute();
+//        DecoratorExecutor decoratorExecutor = new DecoratorExecutor();
+//        decoratorExecutor.execute();
+
+        ObserverExecutor observerExecutor = new ObserverExecutor();
+        observerExecutor.execute();
 
     }
 }
